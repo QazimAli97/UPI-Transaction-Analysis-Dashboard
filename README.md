@@ -2,7 +2,7 @@
 🧩 Project Overview
 
 This project provides an analytical overview of UPI (Unified Payments Interface) transactions using Power BI Desktop.
-It visualizes key financial metrics such as transaction amount, count, user activity, and remaining balances — helping understand how digital payment behavior varies by month, city, age group, and device type.
+It visualizes key financial metrics such as transaction amount, count, user activity, and remaining balances.... helping understand how digital payment behavior varies by month, city, age group, and device type.
 
 🧠 Business Question
 
