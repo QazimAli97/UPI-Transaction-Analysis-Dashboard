@@ -1,53 +1,73 @@
 💳 UPI Transaction Analysis Dashboard (Power BI Project)
 🧩 Project Overview
 
-This project analyzes UPI (Unified Payments Interface) transactions to understand digital payment trends, user behavior, and balance patterns across major Indian cities. Using Power BI, it visualizes how transaction volume, purpose, and demographics influence financial activity throughout 2024.
+This project provides an analytical overview of UPI (Unified Payments Interface) transactions using Power BI Desktop.
+It visualizes key financial metrics such as transaction amount, count, user activity, and remaining balances — helping understand how digital payment behavior varies by month, city, age group, and device type.
 
 🧠 Business Question
 
-How do UPI transaction amounts and balances vary across cities, time, and user demographics — and what patterns can help understand digital payment behavior?
+How do UPI transaction amounts, balances, and user engagement vary across different demographics, cities, and time periods and what trends define digital payment behavior?
 
 🧮 Data & Analysis
 
-Data includes UPI transaction details with fields such as:
+Dataset Fields Include:
 
-Bank Name (Sender & Receiver)
-City
-Device Type
-Gender
-Purpose
-Payment Method
 Transaction Type
-Merchant Name
+Purpose
+Bank Name (Sender & Receiver)
+Payment Method
+City
+Gender
 Age Group
+Device Type
+Status
 
-Analytical Highlights:
+Analytical Highlights (as per dashboard):
 
-Monthly transaction Amounts and Remaining Balances from Jan–Dec 2024
-City-wise comparisons for Bangalore, Delhi, Hyderabad, and Mumbai
-Trend analysis using Line and Column charts
+Monthly Transaction Amount: Jan–Dec 2024
+City-wise Transaction Amount (mapped view)
+Transaction Amount by Age Group
+Device-wise Transaction Distribution
+Transaction Amount vs. Remaining Balance (Month-wise)
+
+📊 Key Performance Metrics
+
+Metric	Value
+
+Total Transaction Amount	₹19.87M
+Total No. of Transactions	20.00K
+Average Transaction Value	₹993.61
+Active Users	20K
+Average Remaining Balance	₹5.02K
 
 🧰 Tools & Techniques
 
-Power BI Desktop for visualization and dashboard creation
-DAX Measures for calculating totals and averages
-Interactive Filters (Slicers) for demographic, transaction type, and time-based exploration
+🟡 Power BI Desktop – for data visualization and KPI reporting
+🧮 DAX Measures – for computing totals, averages, and balances
+🎚️ Slicers – to filter by Gender, Purpose, Transaction Type, Payment Method, and Bank
+🗺️ Map Visuals – for city-level and geographic analysis
+📈 Interactive Charts – trend and performance tracking
 
 📈 Power BI Visualizations
 
-Line Charts: Amount and Balance trends across 2024
-Column Charts: City-wise monthly transaction comparison
-Slicers: Filter by City, Bank, Device Type, Gender, and Purpose
+Cards: Display key KPIs like Total Transaction Amount, Active Users, and Average Value
+Line Chart: Monthly Transaction Amount (Jan–Dec 2024)
+Map Visual: City-wise Transaction Amount across India
+Column Chart: Transaction Amount by Age Group (A1, A2, A3)
+Bar Chart: Transaction Amount by Device Type (Mobile, Tablet, Laptop)
+Area Chart: Transaction Amount vs Remaining Balance by Month
 
 🚀 Insights
 
-UPI transactions remained stable throughout 2024, averaging around 1.6M–1.7M INR per month.
-Balances stayed consistent (~8.2M–8.5M INR), suggesting strong inflow–outflow equilibrium.
-Delhi and Bangalore led in total transaction volumes.
-Minor dips observed in March and July, while May and October peaked slightly — possibly tied to salary or festive cycles.
-Dashboard enables deep-dive analysis into city, user, and payment patterns for business decisions.
+Total transaction volume reached ₹19.87M across 20K transactions, averaging ₹993 per transaction.
+Active user base: ~20K users with an average balance of ₹5.02K.
+Monthly performance remained steady between ₹4.9M–₹5.0M throughout 2024.
+Age Group A3 contributed the highest transaction amount (~₹11.9M), followed by A2 (₹5.0M) and A1 (₹2.9M).
+Device Usage: Nearly equal transaction values across Mobile, Tablet, and Laptop (~₹6.6M each).
+Balance trends stayed consistent (₹8.2M–₹8.5M range), indicating stable cash flow and spending balance.
+Interactive slicers allow analysis by Gender, City, Purpose, Bank Name, and Payment Method.
 
 ✨ Author
 
 Mohammad Ali
-Data Analyst | SQL | Power BI | Data Visualization | Business Intelligence
+📊 Data Analyst | SQL | Power BI | Data Visualization | Business Intelligence
